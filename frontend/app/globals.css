@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+
+  --paper: #eef2f5;
+  --surface: #ffffff;
+  --elevated: #e3eaef;
+  --ink: #0a1418;
+  --muted: #55666d;
+  --line: #d3dce2;
+  --accent: #0ea5b7;
+  --accent-strong: #0b8299;
+  --accent-soft: #d6f3f8;
+  --accent-ink: #0b6377;
+  --signal: #a3e635;
+  --success: #16a34a;
+  --on-accent: #04141a;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --paper: #060f13;
+  --surface: #0d1a1f;
+  --elevated: #13262c;
+  --ink: #e3eef1;
+  --muted: #8ea3aa;
+  --line: #1e343b;
+  --accent: #22d3ee;
+  --accent-strong: #67e8f9;
+  --accent-soft: #0b2d36;
+  --accent-ink: #67e8f9;
+  --signal: #bef264;
+  --success: #4ade80;
+  --on-accent: #04141a;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-elevated: var(--elevated);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-signal: var(--signal);
+  --color-success: var(--success);
+  --color-on-accent: var(--on-accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-space-grotesk);
+}
+
+@utility shadow-hard {
+  box-shadow: 4px 4px 0 0 var(--line);
+}
+
+@utility shadow-hard-accent {
+  box-shadow: 4px 4px 0 0 var(--accent);
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--line) 60%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--line) 60%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 40px 40px;
+}
+
+@utility label-mono {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
