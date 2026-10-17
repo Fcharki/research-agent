@@ -17,11 +17,11 @@ citations you can verify.
 
 | Screen | Preview |
 | :--- | :--- |
-| **Homepage** | <a href="docs/homepage.png"><img src="docs/homepage.png" alt="Homepage" width="600"></a> |
-| **Research form** | <a href="docs/research_form.png"><img src="docs/research_form.png" alt="Research form" width="600"></a> |
-| **Research results** | <a href="docs/research_results.png"><img src="docs/research_results.png" alt="Research results" width="600"></a> |
-| **Research results — detail** | <a href="docs/research_result2.png"><img src="docs/research_result2.png" alt="Research results — detail" width="600"></a> |
-| **Dark mode** | <a href="docs/darkmode.png"><img src="docs/darkmode.png" alt="Dark mode" width="600"></a> |
+| **Homepage** | <a href="docs/homepage.png"><img src="docs/homepage.png" alt="Homepage" width="480"></a> |
+| **Research form** | <a href="docs/research_form.png"><img src="docs/research_form.png" alt="Research form" width="480"></a> |
+| **Research results** | <a href="docs/research_results.png"><img src="docs/research_results.png" alt="Research results" width="480"></a> |
+| **Research results — detail** | <a href="docs/research_result2.png"><img src="docs/research_result2.png" alt="Research results — detail" width="480"></a> |
+| **Dark mode** | <a href="docs/darkmode.png"><img src="docs/darkmode.png" alt="Dark mode" width="480"></a> |
 
 ---
 
