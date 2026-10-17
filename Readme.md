@@ -13,6 +13,18 @@ citations you can verify.
 
 ---
 
+## Screenshots
+
+| Screen | Preview |
+| :--- | :--- |
+| **Homepage** | <a href="docs/homepage.png"><img src="docs/homepage.png" alt="Homepage" width="600"></a> |
+| **Research form** | <a href="docs/research_form.png"><img src="docs/research_form.png" alt="Research form" width="600"></a> |
+| **Research results** | <a href="docs/research_results.png"><img src="docs/research_results.png" alt="Research results" width="600"></a> |
+| **Research results — detail** | <a href="docs/research_result2.png"><img src="docs/research_result2.png" alt="Research results — detail" width="600"></a> |
+| **Dark mode** | <a href="docs/darkmode.png"><img src="docs/darkmode.png" alt="Dark mode" width="600"></a> |
+
+---
+
 ## Architecture
 
 > **In one line:** a Next.js UI talks to a single FastAPI service that runs a
@@ -157,6 +169,7 @@ research-agent/
 │   │   └── lib/api.ts           # Typed API client for the backend
 │   ├── next.config.ts
 │   └── Dockerfile
+├── docs/                 # Screenshots referenced in this README
 ├── docker-compose.yml
 ├── .env.example
 └── Readme.md

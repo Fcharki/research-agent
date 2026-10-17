@@ -2,10 +2,16 @@ node_modules/
 .next/
 out/
 build/
+.eslintcache
+tsconfig.tsbuildinfo
 .git/
 .gitignore
 .env
 .env.local
+.env.*
+README.md
+AGENTS.md
+*.log
+npm-debug.log*
 Dockerfile
 .dockerignore
-npm-debug.log*
